@@ -1,0 +1,209 @@
+
+body {
+    font-family: "Montserrat";
+    /* text-align: center; */
+  }
+  
+  .navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-item {
+    padding: 0 18px;
+  }
+  
+  .nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+  }
+
+.top-nav{
+    margin-left: 600px;
+}
+
+h5{
+    color:rgb(23, 237, 23);
+    font-weight: bold;
+    /* padding-top: 100px; */
+    margin-bottom: 20px;
+}
+
+.p1{
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* feature */
+.feature-top{
+    margin-top: 70px ;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.features {
+    position: relative;
+  }
+  
+  .feature-title {
+    font-size: 1.5rem;
+  }
+  
+  .feature-box {
+    padding: 4%;
+  }
+  
+  .icon {
+    color: #090908;
+    margin-bottom: 1rem;
+  }
+  
+  .icon:hover {
+    color:rgb(23, 237, 23)
+  }
+  
+  /* pricing */
+  #pricing {
+  padding: 110px;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 3%;
+}
+
+/* contact */
+.con-right{
+  margin-top: 350px;
+  
+}
+.social-icon {
+  margin: 20px 10px;
+  color:black;
+}
+
+/* Login part */
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #04AA6D;
+  color: white;
+  
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 22px 0 12px 0;
+  position: relative;
+}
+
+img.avatar {
+  width: 14%;
+  border-radius: 30%;
+  border-style: double;
+  border-color: rgb(23, 237, 23);
+}
+
+.container {
+  padding: 16px;
+}
+
+div.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(18, 19, 18); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #1b1919;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px rgb(23, 237, 23);
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #14f014;
+  font-size: 35px;
+  font-weight: bold;
+  
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
